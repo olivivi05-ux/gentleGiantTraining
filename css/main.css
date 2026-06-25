@@ -1,0 +1,582 @@
+/* ==================================================
+   1. Colours and reusable sizes
+   Change these values to update the whole website.
+   ================================================== */
+:root {
+  --navy: #102a3b;
+  --blue: #486a80;
+  --gold: #dec17f;
+  --header-gold: #c4a256;
+  --gold-dark: #ad8738;
+  --white: #ffffff;
+  --ink: #102a3b;
+  --muted: #5d6b74;
+  --line: #dce3e7;
+  --radius: 10px;
+  --page-width: 1120px;
+  --shadow: 0 8px 22px rgb(16 42 59 / 10%);
+}
+
+/* ==================================================
+   2. Basic page styles
+   ================================================== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--white);
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+/* Text links use the light yellow on hover; button links keep their own style. */
+a:not(.button):hover,
+a:not(.button):focus-visible {
+  color: var(--gold);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 760px;
+  margin-bottom: 1rem;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  line-height: 1.15;
+}
+
+h3 {
+  line-height: 1.25;
+}
+
+.container,
+.header-inner {
+  width: min(100% - 2rem, var(--page-width));
+  margin-inline: auto;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-tight {
+  padding: 3rem 0 1.5rem;
+}
+
+.section-centered {
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.section-intro,
+.lead {
+  font-size: 1.08rem;
+}
+
+.lead {
+  max-width: 680px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.7rem 1rem;
+  color: var(--white);
+  background: var(--navy);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* ==================================================
+   3. Header and navigation
+   ================================================== */
+.site-header {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  color: var(--navy);
+  background: var(--header-gold);
+  border-bottom: 1px solid rgb(16 42 59 / 15%);
+}
+
+.header-inner {
+  display: flex;
+  min-height: 76px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.site-nav ul,
+.footer-links,
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.site-nav a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.35rem;
+}
+
+.menu-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.menu-toggle-line,
+.menu-toggle-line::before,
+.menu-toggle-line::after {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: auto;
+  content: "";
+  background: var(--navy);
+}
+
+.menu-toggle-line::before {
+  transform: translateY(-7px);
+}
+
+.menu-toggle-line::after {
+  transform: translateY(5px);
+}
+
+/* ==================================================
+   4. Hero and coloured bands
+   ================================================== */
+.hero {
+  padding: 5rem 0;
+  color: var(--navy);
+  background: var(--gold);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-media img,
+.image-panel img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
+
+.hero-media img {
+  aspect-ratio: 5 / 3;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  color: var(--gold-dark);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.band-dark {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.band-accent {
+  color: var(--navy);
+  background: var(--gold);
+}
+
+/* Final call-to-action background on the home page. */
+.cta-section {
+  color: var(--white);
+  background-position: center;
+  background-size: cover;
+}
+
+.cta-section .section-centered {
+  margin-bottom: 0;
+}
+
+.cta-section h2,
+.cta-section p {
+  text-shadow: 0 2px 8px rgb(0 0 0 / 45%);
+}
+
+.cta-home {
+  background-image: linear-gradient(rgb(16 42 59 / 78%), rgb(16 42 59 / 78%)),
+    url("../images/football-field-1.jpg");
+}
+
+/* ==================================================
+   5. Buttons, cards, and shared grids
+   ================================================== */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  color: var(--white);
+  background: var(--blue);
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgb(16 42 59 / 15%);
+  transition: transform 180ms ease, box-shadow 180ms ease,
+    background-color 180ms ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: var(--navy);
+  box-shadow: 0 8px 18px rgb(16 42 59 / 24%);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: 0 3px 8px rgb(16 42 59 / 18%);
+  transform: translateY(0);
+}
+
+.card-grid,
+.footer-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.two-up {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three-up {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.four-up {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  padding: 1.6rem;
+  color: var(--ink);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.card > :last-child {
+  margin-bottom: 0;
+}
+
+.icon-badge {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 1rem;
+  place-items: center;
+  color: var(--gold-dark);
+  background: #f5edd9;
+  border-radius: 50%;
+  font-weight: 800;
+}
+
+/* ==================================================
+   6. Home page
+   ================================================== */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat strong {
+  display: block;
+  color: var(--blue);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.1;
+}
+
+.testimonial-card blockquote {
+  margin: 0 0 1.25rem;
+  font-style: italic;
+}
+
+.testimonial-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.testimonial-meta img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Reveal each section gently as it enters the screen. */
+.has-js .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 550ms ease, transform 550ms ease;
+}
+
+.has-js .reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==================================================
+   7. Footer
+   ================================================== */
+.footer {
+  color: #d6e0e6;
+  background: var(--navy);
+}
+
+.footer-grid {
+  grid-template-columns: 1.4fr 0.8fr 1.2fr 0.7fr;
+}
+
+.footer h3 {
+  color: var(--white);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 0.75rem;
+  color: var(--white);
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.footer-brand img {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 50px;
+  object-fit: contain;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+.social-list {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-list a {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  color: var(--navy);
+  background: var(--gold);
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.copyright {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  text-align: center;
+  border-top: 1px solid rgb(255 255 255 / 15%);
+}
+
+/* ==================================================
+   8. Tablet layout
+   ================================================== */
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .three-up {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .four-up,
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-media img {
+    max-height: 440px;
+  }
+}
+
+/* ==================================================
+   9. Mobile layout
+   ================================================== */
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  .section,
+  .hero {
+    padding: 3.5rem 0;
+  }
+
+  .header-inner {
+    min-height: 64px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+.site-nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background: var(--header-gold);
+    border-top: 1px solid rgb(16 42 59 / 15%);
+  }
+
+  .site-nav[data-open="true"] {
+    display: block;
+  }
+
+  .site-nav ul {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .site-nav a {
+    display: block;
+    padding: 0.65rem 0;
+  }
+
+  .hero-grid {
+    gap: 2rem;
+  }
+
+  .two-up,
+  .three-up,
+  .four-up,
+  .footer-grid,
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+
+}
+
+/* People who prefer less motion should not get animation. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .button,
+  .has-js .reveal {
+    transition: none;
+  }
+
+  .has-js .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

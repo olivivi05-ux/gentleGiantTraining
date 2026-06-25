@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs | Gentle Giant Training</title>
+  <meta name="description" content="Explore football development programs, training schedules, and pricing from Gentle Giant Training.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/programs.css">
+</head>
+<body>
+  <!-- This skip link makes the page easier to use with a keyboard. -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- This is the shared site header and menu. -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Gentle Giant Training home">
+        <picture>
+          <source srcset="images/gentle-giant-logo.png">
+          <img src="images/gentle-giant-logo.png" width="48" height="48" alt="Gentle Giant Training logo">
+        </picture>
+        <span>The Gentle Giant</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open site navigation">
+        <span class="menu-toggle-line" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-open="false">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a aria-current="page" href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- This hero introduces the programs page and uses a responsive image. -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <h1>Our Programs</h1>
+          <p class="lead">Comprehensive football development programs built for athletes who want better technique, smarter training, and stronger recruiting preparation.</p>
+        </div>
+        <div class="hero-media reveal">
+          <picture>
+            <!-- I made two image sizes so small screens do not need the bigger file. -->
+            <source media="(max-width: 480px)" srcset="images/football-4.jpg">
+            <source media="(min-width: 481px)" srcset="images/football-4.jpg">
+            <img src="images/football-4.jpg" width="600" height="336" alt="Football and cones prepared for a training session" fetchpriority="high">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- This section matches the mockup with the field image first and the program cards underneath. -->
+    <section class="section band-dark">
+      <div class="container">
+        <div class="image-panel program-visual reveal">
+          <picture>
+            <!-- The field image is below the hero, so it can lazy load. -->
+            <source media="(max-width: 480px)" srcset="images/american-football-stadium.jpg">
+            <source media="(min-width: 481px)" srcset="images/american-football-stadium.jpg">
+            <img src="images/american-football-stadium.jpg" width="600" height="357" alt="Overhead view of a marked football field" loading="lazy">
+          </picture>
+        </div>
+        <div class="card-grid two-up programs-grid">
+          <article class="card program-card reveal">
+            <span class="eyebrow">Foundations</span>
+            <h2>Foundational Development Program</h2>
+            <p>Foundational football training focused on coordination, confidence, and core movement skills.</p>
+            <ul class="checklist">
+              <li>Movement fundamentals</li>
+              <li>Agility and coordination</li>
+              <li>Introductory football skills</li>
+            </ul>
+          </article>
+          <article class="card program-card reveal">
+            <span class="eyebrow">Advanced</span>
+            <h2>High School Elite Program</h2>
+            <p>Advanced development for athletes preparing for varsity competition and recruiting exposure. Recommended age 13 and up.</p>
+            <ul class="checklist">
+              <li>Position development</li>
+              <li>Film review habits</li>
+              <li>Recruitment preparation</li>
+            </ul>
+          </article>
+          <article class="card program-card reveal">
+            <span class="eyebrow">Strenght</span>
+            <h2>Strenght Training</h2>
+            <p>Focused weightroom development sessions for athletes to improve on field stability, power and explosiveness.</p>
+            <ul class="checklist">
+              <li>Weight lifting</li>
+              <li>Compound movement training</li>
+              <li>Nervous system reinforcement</li>
+            </ul>
+          </article>
+          <article class="card program-card reveal">
+            <span class="eyebrow">Recruitment</span>
+            <h2>College Combine Prep</h2>
+            <p>Performance preparation for showcases, combines, and measurable recruiting evaluations.</p>
+            <ul class="checklist">
+              <li>Testing strategy</li>
+              <li>Combine Mechanics</li>
+              <li>Performance tracking</li>
+            </ul>
+          </article>
+          <article class="card program-card reveal">
+            <span class="eyebrow">Camp</span>
+            <h2>Football Camps</h2>
+            <p>Single Day Clinics focused on competition and providing live reps to athletes.</p>
+            <ul class="checklist">
+              <li>Position Training</li>
+              <li>Speed/Agility work</li>
+              <li>1-on-1 Competitive reps</li>
+            </ul>
+          </article>
+          <article class="card program-card reveal">
+            <span class="eyebrow">Elite</span>
+            <h2>1-on-1 Elite Coaching</h2>
+            <p>Private coaching for athletes who want individualized technique work and mentorship.</p>
+            <ul class="checklist">
+              <li>Customized plan</li>
+              <li>Private skill sessions</li>
+              <li>Mentorship and accountability</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- This schedule section is separate so it can have the gold background from the mockup. -->
+    <section class="section band-accent">
+      <div class="container">
+        <div class="section-centered reveal">
+          <h2 class="section-title">Training Schedule Appointment Only</h2>
+        </div>
+        <div class="card-grid schedule-grid">
+          <section class="card schedule-card reveal">
+            <h3>Weekday Sessions</h3>
+            <p><br>Monday-Friday<strong>8:00 AM - 8:30 PM</strong></p>
+          </section>
+          <section class="card schedule-card reveal">
+            <h3>Weekend Sessions</h3>
+            <p><strong>Saturday</strong><br>9:00 AM - 2:00 PM</p>
+            <p><strong>Sunday</strong><br>10:00 AM - 3:00 PM</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- These pricing cards show the three main payment options. -->
+    <section class="section band-dark">
+      <div class="container">
+        <div class="section-centered reveal">
+          <h2 class="section-title">Investment in Your Future</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="card pricing-card reveal">
+            <div>
+              <h3>Group sessions</h3>
+              <div class="price"><strong>$80</strong><span>/ per session or whatever you can pay</span></div>
+              <ul class="checklist">
+                <li>Access to group youth, high school, speed and strength training</li>
+                <li>No kids should be priced out of knowledge</li>
+                <li>Scholarship opportunities available</li>
+              </ul>
+            </div>
+            <p><a class="button" href="contact.html">Get Started</a></p>
+          </article>
+          <article class="card pricing-card featured reveal">
+            <div>
+              <h3>Individual sessions</h3>
+              <div class="price"><strong>$120</strong><span>/ per session</span></div>
+              <ul class="checklist">
+                <li>1-on-1 customizable training</li>
+                <li>Recruitment support</li>
+                <li>Nutritional support</li>
+              </ul>
+            </div>
+            <p><a class="button button-secondary" href="contact.html">Get Started</a></p>
+          </article>
+          <article class="card pricing-card reveal">
+            <div>
+              <h3>Football Camps</h3>
+              <div class="price"><strong>$75</strong><span>/ per session or whatever you can pay</span></div>
+              <ul class="checklist">
+                <li>Large scale competitive football camps</li>
+                <li>Group training</li>
+                <li>1 on 1 competitive opportunities</li>
+              </ul>
+            </div>
+            <p><a class="button" href="contact.html">Get Started</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- This CTA gives users one more clear place to start. -->
+    <section class="section band-accent cta-section cta-programs">
+      <div class="container section-centered reveal">
+        <h2>Ready to Start Training?</h2>
+        <p class="lead" style="margin-inline:auto;">Tell us your goals and we will help you choose the right path.</p>
+        <a class="button" href="contact.html">Get Started</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- This footer is shared with the other pages. -->
+  <footer class="footer section-tight">
+    <div class="container footer-grid four-up">
+      <section>
+        <h2 class="visually-hidden">Company information</h2>
+        <a class="footer-brand" href="index.html" aria-label="Gentle Giant Training home">
+          <img src="images/gentle-giant-logo.png" width="48" height="48" alt="">
+          <span>Gentle Giant Training</span>
+        </a>
+        <p>Elite football training and recruitment support for committed athletes.</p>
+      </section>
+      <nav aria-label="Footer navigation">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3>Contact</h3>
+        <p><a href="tel:2105573896">(210)557-3896</a><br><a href="mailto:Chancelytle@gentlegianttraining.com">Chancelytle@gentlegianttraining.com</a><br>Austin, Texas</p>
+      </section>
+      <section>
+        <h3>Follow Us</h3>
+        <ul class="social-list" aria-label="Social media links">
+          <li><a href="#" aria-label="Instagram">IG</a></li>
+          <li><a href="#" aria-label="Facebook">FB</a></li>
+          <li><a href="#" aria-label="YouTube">YT</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container copyright">
+      <small>&copy; 2025 Gentle Giant Training. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="javascript/main.js"></script>
+</body>
+</html>

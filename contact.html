@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Gentle Giant Training</title>
+  <meta name="description" content="Contact Gentle Giant Training to learn more about football training, recruitment support, and athlete development programs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <!-- This skip link is for accessibility and helps keyboard users skip the menu. -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- This is the main header and navigation. -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Gentle Giant Training home">
+        <picture>
+          <source srcset="images/gentle-giant-logo.png">
+          <img src="images/gentle-giant-logo.png" width="48" height="48" alt="Gentle Giant Training logo">
+        </picture>
+        <span>The Gentle Giant</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open site navigation">
+        <span class="menu-toggle-line" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-open="false">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- This hero matches the other inner pages with text and an image side by side. -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <h1>Contact Us</h1>
+          <p class="lead">Ready to take the next step? Reach out and we will help you find the right training plan for your athlete.</p>
+        </div>
+        <div class="hero-media reveal">
+          <picture>
+            <!-- The image changes size depending on the screen width. -->
+            <source media="(max-width: 480px)" srcset="images/football-7.jpg">
+            <source media="(min-width: 481px)" srcset="images/football-7.jpg">
+            <img src="images/football-7.jpg" width="600" height="336" alt="Football positioned on a kicking tee at a training field" fetchpriority="high">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- This section contains the contact form and the contact details beside it. -->
+    <section class="section band-dark">
+      <div class="container contact-layout">
+        <div>
+          <form class="card reveal" action="#" method="post">
+            <!-- Labels are included so the form is easier to understand and more accessible. -->
+            <h2>Send Us a Message</h2>
+            <div class="form-grid">
+              <div class="field-row">
+                <div>
+                  <label for="first-name">First Name</label>
+                  <input id="first-name" name="first-name" type="text" autocomplete="given-name" required>
+                </div>
+                <div>
+                  <label for="last-name">Last Name</label>
+                  <input id="last-name" name="last-name" type="text" autocomplete="family-name" required>
+                </div>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel">
+              </div>
+              <div>
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" required>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <div class="checkbox-row">
+                <input id="consent" name="consent" type="checkbox">
+                <label for="consent" style="margin-bottom:0; font-weight:500;">I agree to receive follow-up communication about training and program details.</label>
+              </div>
+              <button class="button" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+
+        <aside>
+          <article class="card contact-card reveal" style="margin-bottom: 1rem;">
+            <h2>Contact Information</h2>
+            <p><strong>Phone</strong><br><a href="tel:2105573896">(210)557-3896</a></p>
+            <p><strong>Email</strong><br><a href="mailto:Chancelytle@gentlegianttraining.com">Chancelytle@gentlegianttraining.com</a></p>
+            <p><strong>Address</strong><br>Austin, Texas</p>
+          </article>
+          <article class="card contact-card reveal">
+            <h2>Business Hours</h2>
+            <div class="hours-list" aria-label="Business hours">
+              <div class="hours-item"><span>Monday-Friday</span><span>8:00 AM - 8:30 PM</span></div>
+              <div class="hours-item"><span>Saturday</span><span>9:00 AM - 2:00 PM</span></div>
+              <div class="hours-item"><span>Sunday</span><span>10:00 AM - 3:00 PM</span></div>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <!-- This map helps visitors find the facility location. -->
+    <section class="section band-accent">
+      <div class="container reveal">
+        <h2>Visit Our Facility</h2>
+        <iframe class="map-frame" title="Map showing Gentle Giant Training in Austin, Texas" src="https://maps.google.com/maps?q=Austin%2C%20Texas&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- I used details/summary so the FAQ works without extra JavaScript. -->
+    <section class="section band-dark">
+      <div class="container">
+        <div class="section-centered reveal">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>How do I get started?</summary>
+            <p>Contact us through the form above and we will recommend a starting program based on age, position, and current experience.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Do you offer year-round training?</summary>
+            <p>Yes. Athletes can train in season, off season, or during specific recruiting and combine prep windows.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Are sessions available for different age groups?</summary>
+            <p>Programs are designed for youth, high school, and advanced athletes who need position-specific support.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>What should athletes bring to training?</summary>
+            <p>Bring cleats, athletic wear, water, and any position-specific gear that you use during practice or games.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- This footer gives quick links and contact info again. -->
+  <footer class="footer section-tight">
+    <div class="container footer-grid four-up">
+      <section>
+        <h2 class="visually-hidden">Company information</h2>
+        <a class="footer-brand" href="index.html" aria-label="Gentle Giant Training home">
+          <img src="images/gentle-giant-logo.png" width="48" height="48" alt="">
+          <span>Gentle Giant Training</span>
+        </a>
+        <p>Elite football training and recruitment support for committed athletes.</p>
+      </section>
+      <nav aria-label="Footer navigation">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3>Contact</h3>
+        <p><a href="tel:2105573896">(210)557-3896</a><br><a href="mailto:Chancelytle@gentlegianttraining.com">Chancelytle@gentlegianttraining.com</a><br>Austin, Texas</p>
+      </section>
+      <section>
+        <h3>Follow Us</h3>
+        <ul class="social-list" aria-label="Social media links">
+          <li><a href="#" aria-label="Instagram">IG</a></li>
+          <li><a href="#" aria-label="Facebook">FB</a></li>
+          <li><a href="#" aria-label="YouTube">YT</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container copyright">
+      <small>&copy; 2025 Gentle Giant Training. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- This schema is here to describe the contact page to search engines. -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Gentle Giant Training",
+      "mainEntity": {
+        "@type": "SportsActivityLocation",
+        "name": "Gentle Giant Training",
+        "telephone": "+1-210-557-3896",
+        "email": "Chancelytle@gentlegianttraining.com"
+      }
+    }
+  </script>
+  <script src="javascript/main.js"></script>
+</body>
+</html>
