@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="changes social media links" />
+    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Extras">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/programs.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,20 +42,20 @@
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="S5" value="1.0000000030020024" />
+      <entry key="S10" value="1.0001635013087988" />
+      <entry key="S30" value="1.2363084001197917" />
+      <entry key="S60" value="2.4581255621746494" />
+      <entry key="M2" value="4.62244835495058" />
+      <entry key="M5" value="7.2537774021863655" />
+      <entry key="M10" value="8.502254669004099" />
+      <entry key="M15" value="8.97153378505168" />
+      <entry key="M30" value="9.470169996469105" />
+      <entry key="H1" value="9.731066573663599" />
+      <entry key="H2" value="9.864513381996513" />
+      <entry key="H4" value="9.931999776968286" />
+      <entry key="D1" value="9.988630781316333" />
+      <entry key="W1" value="9.998374945819261" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -72,23 +77,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.5987393523094643" />
-      <entry key="MS500" value="0.90250072746243" />
-      <entry key="S2" value="0.9746796308915489" />
-      <entry key="S5" value="0.9897938614695402" />
-      <entry key="S10" value="0.9948838432045924" />
-      <entry key="S30" value="0.9982916977667883" />
-      <entry key="S60" value="0.9991454837844128" />
-      <entry key="M2" value="0.9995726505784424" />
-      <entry key="M5" value="0.9998290383110773" />
-      <entry key="M10" value="0.9999145155017389" />
-      <entry key="M15" value="0.9999430095225063" />
-      <entry key="M30" value="0.9999715043552523" />
-      <entry key="H1" value="0.9999857520761245" />
-      <entry key="H2" value="0.9999928760126866" />
-      <entry key="H4" value="0.9999964379999994" />
-      <entry key="D1" value="0.9999994063324521" />
-      <entry key="W1" value="0.9999999151903287" />
+      <entry key="MS100" value="0.9726549474122855" />
+      <entry key="MS500" value="0.9944701686732144" />
+      <entry key="S2" value="0.9986146661010289" />
+      <entry key="S5" value="0.9994456389669476" />
+      <entry key="S10" value="0.9998860611819679" />
+      <entry key="S30" value="1.236101553075739" />
+      <entry key="S60" value="2.457719450790354" />
+      <entry key="M2" value="4.621973895333329" />
+      <entry key="M5" value="7.253454683604399" />
+      <entry key="M10" value="8.502061660405678" />
+      <entry key="M15" value="8.971397171894873" />
+      <entry key="M30" value="9.470097468464262" />
+      <entry key="H1" value="9.731029204771998" />
+      <entry key="H2" value="9.86449441491226" />
+      <entry key="H4" value="9.931990221950079" />
+      <entry key="D1" value="9.98862917881609" />
+      <entry key="W1" value="9.998374716644909" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -102,6 +107,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -126,19 +132,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Olivia\IdeaProjects\gentleGiantTraining" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="gentleGiantTraining" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="gentleGiantTraining" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -167,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785274246726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes social media links">
+      <option name="closed" value="true" />
+      <created>1785274335594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785274335594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Extras">
+      <option name="closed" value="true" />
+      <created>1785274390919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785274390919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes social media links" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes social media links" />
+    <MESSAGE value="Extras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extras" />
   </component>
 </project>
