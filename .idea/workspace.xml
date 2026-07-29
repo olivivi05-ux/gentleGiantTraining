@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Extras">
+    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Hides the social links for youtube and facebook">
+      <change afterPath="$PROJECT_DIR$/images/group-ball.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/group-running.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/group-standing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/group-talking.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/programs.html" afterDir="false" />
     </list>
@@ -39,62 +44,65 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000030020024" />
-      <entry key="S10" value="1.0001635013087988" />
-      <entry key="S30" value="1.2363084001197917" />
-      <entry key="S60" value="2.4581255621746494" />
-      <entry key="M2" value="4.62244835495058" />
-      <entry key="M5" value="7.2537774021863655" />
-      <entry key="M10" value="8.502254669004099" />
-      <entry key="M15" value="8.97153378505168" />
-      <entry key="M30" value="9.470169996469105" />
-      <entry key="H1" value="9.731066573663599" />
-      <entry key="H2" value="9.864513381996513" />
-      <entry key="H4" value="9.931999776968286" />
-      <entry key="D1" value="9.988630781316333" />
-      <entry key="W1" value="9.998374945819261" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.859694643018523E-274" />
+      <entry key="S2" value="1.9565372043235686E-68" />
+      <entry key="S5" value="4.21127450235194E-27" />
+      <entry key="S10" value="2.839298489269766E-13" />
+      <entry key="S30" value="4.990798617196913E-4" />
+      <entry key="S60" value="0.10815634800222225" />
+      <entry key="M2" value="1.7012881427119908" />
+      <entry key="M5" value="9.342569709907156" />
+      <entry key="M10" value="16.68202240485258" />
+      <entry key="M15" value="20.269783757752293" />
+      <entry key="M30" value="24.64922702918177" />
+      <entry key="H1" value="27.190437662010968" />
+      <entry key="H2" value="28.559929481104643" />
+      <entry key="H4" value="29.270914052558055" />
+      <entry key="D1" value="29.877208760582434" />
+      <entry key="W1" value="29.982426860429293" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000204718357069" />
+      <entry key="S2" value="1.0672673834319393" />
+      <entry key="S5" value="1.3472516097505194" />
+      <entry key="S10" value="1.703315667376641" />
+      <entry key="S30" value="2.8133738636704084" />
+      <entry key="S60" value="4.025798154915822" />
+      <entry key="M2" value="5.37854029087814" />
+      <entry key="M5" value="6.7295398729818565" />
+      <entry key="M10" value="7.319603047502646" />
+      <entry key="M15" value="7.5356440440684835" />
+      <entry key="M30" value="7.762249965720125" />
+      <entry key="H1" value="7.879694488609265" />
+      <entry key="H2" value="7.939484820055262" />
+      <entry key="H4" value="7.969651196493427" />
+      <entry key="D1" value="7.99492914562852" />
+      <entry key="W1" value="7.999275280032111" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549474122855" />
-      <entry key="MS500" value="0.9944701686732144" />
-      <entry key="S2" value="0.9986146661010289" />
-      <entry key="S5" value="0.9994456389669476" />
-      <entry key="S10" value="0.9998860611819679" />
-      <entry key="S30" value="1.236101553075739" />
-      <entry key="S60" value="2.457719450790354" />
-      <entry key="M2" value="4.621973895333329" />
-      <entry key="M5" value="7.253454683604399" />
-      <entry key="M10" value="8.502061660405678" />
-      <entry key="M15" value="8.971397171894873" />
-      <entry key="M30" value="9.470097468464262" />
-      <entry key="H1" value="9.731029204771998" />
-      <entry key="H2" value="9.86449441491226" />
-      <entry key="H4" value="9.931990221950079" />
-      <entry key="D1" value="9.98862917881609" />
-      <entry key="W1" value="9.998374716644909" />
+      <entry key="MS100" value="2.7651406277512213E-9" />
+      <entry key="MS500" value="0.01942511206302266" />
+      <entry key="S2" value="0.40411271622066913" />
+      <entry key="S5" value="0.9281339217997644" />
+      <entry key="S10" value="1.4210711287662159" />
+      <entry key="S30" value="2.651283448304218" />
+      <entry key="S60" value="4.012345816318504" />
+      <entry key="M2" value="6.994779139979139" />
+      <entry key="M5" value="16.027793975389063" />
+      <entry key="M10" value="23.977107086552262" />
+      <entry key="M15" value="27.78849194569579" />
+      <entry key="M30" value="32.40269490570788" />
+      <entry key="H1" value="35.065658704440345" />
+      <entry key="H2" value="36.4971564664239" />
+      <entry key="H4" value="37.239430987945425" />
+      <entry key="D1" value="37.87194811482754" />
+      <entry key="W1" value="37.981675009016854" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
@@ -105,31 +113,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olivia/IdeaProjects/gentleGiantTraining&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Olivia/IdeaProjects/gentleGiantTraining/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Olivia\IdeaProjects\gentleGiantTraining\images" />
       <recent name="C:\Users\Olivia\IdeaProjects\gentleGiantTraining" />
     </key>
   </component>
@@ -176,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785274390919</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hides the social links for youtube and facebook">
+      <option name="closed" value="true" />
+      <created>1785282864193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1785282864193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes social media links" />
     <MESSAGE value="Extras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extras" />
+    <MESSAGE value="Hides the social links for youtube and facebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hides the social links for youtube and facebook" />
   </component>
 </project>
