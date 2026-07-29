@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Hides the social links for youtube and facebook">
-      <change afterPath="$PROJECT_DIR$/images/group-ball.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/group-running.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/group-standing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/group-talking.jpg" afterDir="false" />
+    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Adds and changes old pictures to new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
@@ -44,61 +40,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.859694643018523E-274" />
-      <entry key="S2" value="1.9565372043235686E-68" />
-      <entry key="S5" value="4.21127450235194E-27" />
-      <entry key="S10" value="2.839298489269766E-13" />
-      <entry key="S30" value="4.990798617196913E-4" />
-      <entry key="S60" value="0.10815634800222225" />
-      <entry key="M2" value="1.7012881427119908" />
-      <entry key="M5" value="9.342569709907156" />
-      <entry key="M10" value="16.68202240485258" />
-      <entry key="M15" value="20.269783757752293" />
-      <entry key="M30" value="24.64922702918177" />
-      <entry key="H1" value="27.190437662010968" />
-      <entry key="H2" value="28.559929481104643" />
-      <entry key="H4" value="29.270914052558055" />
-      <entry key="D1" value="29.877208760582434" />
-      <entry key="W1" value="29.982426860429293" />
+      <entry key="MS100" value="1.000000000006341" />
+      <entry key="MS500" value="1.0094383116495318" />
+      <entry key="S2" value="2.45222396842135" />
+      <entry key="S5" value="6.700130180975194" />
+      <entry key="S10" value="10.637569138969347" />
+      <entry key="S30" value="15.337752050442376" />
+      <entry key="S60" value="18.440238257763824" />
+      <entry key="M2" value="22.68168906092903" />
+      <entry key="M5" value="32.15733842277162" />
+      <entry key="M10" value="41.34357878930801" />
+      <entry key="M15" value="46.12073817428018" />
+      <entry key="M30" value="52.205746708465526" />
+      <entry key="H1" value="55.85957108529386" />
+      <entry key="H2" value="57.86479061490171" />
+      <entry key="H4" value="58.915593292949794" />
+      <entry key="D1" value="59.81688339878027" />
+      <entry key="W1" value="59.973781503354104" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000204718357069" />
-      <entry key="S2" value="1.0672673834319393" />
-      <entry key="S5" value="1.3472516097505194" />
-      <entry key="S10" value="1.703315667376641" />
-      <entry key="S30" value="2.8133738636704084" />
-      <entry key="S60" value="4.025798154915822" />
-      <entry key="M2" value="5.37854029087814" />
-      <entry key="M5" value="6.7295398729818565" />
-      <entry key="M10" value="7.319603047502646" />
-      <entry key="M15" value="7.5356440440684835" />
-      <entry key="M30" value="7.762249965720125" />
-      <entry key="H1" value="7.879694488609265" />
-      <entry key="H2" value="7.939484820055262" />
-      <entry key="H4" value="7.969651196493427" />
-      <entry key="D1" value="7.99492914562852" />
-      <entry key="W1" value="7.999275280032111" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.048924702095541E-112" />
+      <entry key="S2" value="1.5998185863094295E-28" />
+      <entry key="S5" value="9.994652789589698E-12" />
+      <entry key="S10" value="4.639323333117988E-6" />
+      <entry key="S30" value="0.03928987211735934" />
+      <entry key="S60" value="0.4757497621585821" />
+      <entry key="M2" value="1.8489608606041665" />
+      <entry key="M5" value="4.390264514376625" />
+      <entry key="M10" value="5.912078441191413" />
+      <entry key="M15" value="6.535650422542022" />
+      <entry key="M30" value="7.228893783232066" />
+      <entry key="H1" value="7.604164250372998" />
+      <entry key="H2" value="7.79943921165373" />
+      <entry key="H4" value="7.899049615167439" />
+      <entry key="D1" value="7.983081084481352" />
+      <entry key="W1" value="7.9975807031985156" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.7651406277512213E-9" />
-      <entry key="MS500" value="0.01942511206302266" />
-      <entry key="S2" value="0.40411271622066913" />
-      <entry key="S5" value="0.9281339217997644" />
-      <entry key="S10" value="1.4210711287662159" />
-      <entry key="S30" value="2.651283448304218" />
-      <entry key="S60" value="4.012345816318504" />
-      <entry key="M2" value="6.994779139979139" />
-      <entry key="M5" value="16.027793975389063" />
-      <entry key="M10" value="23.977107086552262" />
-      <entry key="M15" value="27.78849194569579" />
-      <entry key="M30" value="32.40269490570788" />
-      <entry key="H1" value="35.065658704440345" />
-      <entry key="H2" value="36.4971564664239" />
-      <entry key="H4" value="37.239430987945425" />
-      <entry key="D1" value="37.87194811482754" />
-      <entry key="W1" value="37.981675009016854" />
+      <entry key="MS100" value="0.9726549474184958" />
+      <entry key="MS500" value="1.0038628651232786" />
+      <entry key="S2" value="2.448723949111551" />
+      <entry key="S5" value="6.696044126006649" />
+      <entry key="S10" value="10.634248426370194" />
+      <entry key="S30" value="15.373148029147409" />
+      <entry key="S60" value="18.90063690731497" />
+      <entry key="M2" value="24.50082344286284" />
+      <entry key="M5" value="36.518413376203846" />
+      <entry key="M10" value="47.23570455234229" />
+      <entry key="M15" value="52.6415983583801" />
+      <entry key="M30" value="59.426409656197976" />
+      <entry key="H1" value="63.45939189179572" />
+      <entry key="H2" value="65.66199852254972" />
+      <entry key="H4" value="66.81351202600739" />
+      <entry key="D1" value="67.79977385860792" />
+      <entry key="W1" value="67.97133492156327" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -193,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785282864193</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adds and changes old pictures to new">
+      <option name="closed" value="true" />
+      <created>1785283340741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1785283340741</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +218,7 @@
     <MESSAGE value="changes social media links" />
     <MESSAGE value="Extras" />
     <MESSAGE value="Hides the social links for youtube and facebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hides the social links for youtube and facebook" />
+    <MESSAGE value="Adds and changes old pictures to new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds and changes old pictures to new" />
   </component>
 </project>
