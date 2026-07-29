@@ -3,7 +3,7 @@
    ================================================== */
 .contact-layout {
   display: grid;
-  grid-template-columns: 1.35fr 0.65fr;
+  /*grid-template-columns: 1.35fr 0.65fr;*/
   align-items: start;
   gap: 1.25rem;
 }

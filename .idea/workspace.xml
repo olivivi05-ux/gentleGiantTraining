@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Adds and changes old pictures to new">
+    <list default="true" id="57e5090b-473a-405d-bd6c-648622afce63" name="Changes" comment="Fixes any spelling errors I can find">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/programs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000746757837604" />
-      <entry key="S5" value="1.0223497112378317" />
-      <entry key="S10" value="1.1495217735432788" />
-      <entry key="S30" value="1.8420615585662352" />
-      <entry key="S60" value="5.689108682061689" />
-      <entry key="M2" value="18.779496255981254" />
-      <entry key="M5" value="51.75019023198418" />
-      <entry key="M10" value="82.05232651847811" />
-      <entry key="M15" value="98.63540737723939" />
-      <entry key="M30" value="121.20233626212597" />
-      <entry key="H1" value="135.67458786370884" />
-      <entry key="H2" value="143.93848024208455" />
-      <entry key="H4" value="148.36365297801086" />
-      <entry key="D1" value="152.21207962760923" />
-      <entry key="W1" value="152.88706065490427" />
+      <entry key="MS100" value="1.023828632618594" />
+      <entry key="MS500" value="1.8434238031477197" />
+      <entry key="S2" value="3.960589834304485" />
+      <entry key="S5" value="6.40570449044895" />
+      <entry key="S10" value="8.16907006916177" />
+      <entry key="S30" value="9.898845504643518" />
+      <entry key="S60" value="10.517097403860946" />
+      <entry key="M2" value="13.079957263306527" />
+      <entry key="M5" value="33.504073925906496" />
+      <entry key="M10" value="65.1913590420121" />
+      <entry key="M15" value="85.81917245489211" />
+      <entry key="M30" value="116.5685353045875" />
+      <entry key="H1" value="137.6242968050166" />
+      <entry key="H2" value="150.05534983622232" />
+      <entry key="H4" value="156.82543220145214" />
+      <entry key="D1" value="162.77495996754885" />
+      <entry key="W1" value="163.82426114979052" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.033501151695232E-145" />
-      <entry key="S5" value="2.6938113366727033E-58" />
-      <entry key="S10" value="2.408542830661153E-29" />
-      <entry key="S30" value="6.803209725965512E-10" />
-      <entry key="S60" value="6.260300812441563E-5" />
-      <entry key="M2" value="0.02120977341750359" />
-      <entry key="M5" value="0.7350789931151638" />
-      <entry key="M10" value="2.419144719900757" />
-      <entry key="M15" value="3.60221742606365" />
-      <entry key="M30" value="5.366762760917451" />
-      <entry key="H1" value="6.551967976818478" />
-      <entry key="H2" value="7.239749108023904" />
-      <entry key="H4" value="7.610354915884917" />
-      <entry key="D1" value="7.933695938588137" />
-      <entry key="W1" value="7.990494057763491" />
+      <entry key="S2" value="7.506355114946243E-199" />
+      <entry key="S5" value="7.384329355883124E-80" />
+      <entry key="S10" value="3.987735228536969E-40" />
+      <entry key="S30" value="1.7339550696109068E-13" />
+      <entry key="S60" value="9.994410704602688E-7" />
+      <entry key="M2" value="0.0026798903453642943" />
+      <entry key="M5" value="0.32134119901097646" />
+      <entry key="M10" value="1.5994771819817655" />
+      <entry key="M15" value="2.7338880217556762" />
+      <entry key="M30" value="4.675389501323196" />
+      <entry key="H1" value="6.115394325804669" />
+      <entry key="H2" value="6.994390346750577" />
+      <entry key="H4" value="7.480283984784404" />
+      <entry key="D1" value="7.910933754999062" />
+      <entry key="W1" value="7.9872150036062015" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980439373" />
-      <entry key="MS500" value="0.9903428719330246" />
-      <entry key="S2" value="0.9976514717569971" />
-      <entry key="S5" value="1.0213642896051534" />
-      <entry key="S10" value="1.1489848757713774" />
-      <entry key="S30" value="1.8417993126883287" />
-      <entry key="S60" value="5.688799628963123" />
-      <entry key="M2" value="18.799784021537118" />
-      <entry key="M5" value="52.47980973877026" />
-      <entry key="M10" value="84.46290656400015" />
-      <entry key="M15" value="102.22917334507144" />
-      <entry key="M30" value="126.56281992591488" />
-      <entry key="H1" value="142.2227239993361" />
-      <entry key="H2" value="151.17611210663085" />
-      <entry key="H4" value="155.97289496629114" />
-      <entry key="D1" value="160.14558217557337" />
-      <entry key="W1" value="160.87752688704205" />
+      <entry key="MS100" value="1.0027585365634302" />
+      <entry key="MS500" value="1.8355215345909845" />
+      <entry key="S2" value="3.955601021891886" />
+      <entry key="S5" value="6.402311601345191" />
+      <entry key="S10" value="8.166878755567758" />
+      <entry key="S30" value="9.897954156205563" />
+      <entry key="S60" value="10.516622327310863" />
+      <entry key="M2" value="13.082279070128667" />
+      <entry key="M5" value="33.82293024908651" />
+      <entry key="M10" value="66.7851240790037" />
+      <entry key="M15" value="88.54661328326432" />
+      <entry key="M30" value="121.23843808578394" />
+      <entry key="H1" value="143.73610634302167" />
+      <entry key="H2" value="157.04769055624467" />
+      <entry key="H4" value="164.30462021068897" />
+      <entry key="D1" value="170.68570054181592" />
+      <entry key="W1" value="171.81144828990867" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -116,30 +114,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Olivia/IdeaProjects/gentleGiantTraining/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olivia/IdeaProjects/gentleGiantTraining/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Olivia\IdeaProjects\gentleGiantTraining\images" />
@@ -229,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785283587968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixes any spelling errors I can find">
+      <option name="closed" value="true" />
+      <created>1785284625382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1785284625382</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +258,7 @@
     <MESSAGE value="Hides the social links for youtube and facebook" />
     <MESSAGE value="Fixes Instagram link so it opens in a new tab" />
     <MESSAGE value="Adds and changes old pictures to new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds and changes old pictures to new" />
+    <MESSAGE value="Fixes any spelling errors I can find" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes any spelling errors I can find" />
   </component>
 </project>
