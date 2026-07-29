@@ -16,6 +16,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="32" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -38,63 +41,67 @@
     &quot;accountId&quot;: &quot;93e19ba1-5510-4deb-9905-781410f72b09&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000006341" />
-      <entry key="MS500" value="1.0094383116495318" />
-      <entry key="S2" value="2.45222396842135" />
-      <entry key="S5" value="6.700130180975194" />
-      <entry key="S10" value="10.637569138969347" />
-      <entry key="S30" value="15.337752050442376" />
-      <entry key="S60" value="18.440238257763824" />
-      <entry key="M2" value="22.68168906092903" />
-      <entry key="M5" value="32.15733842277162" />
-      <entry key="M10" value="41.34357878930801" />
-      <entry key="M15" value="46.12073817428018" />
-      <entry key="M30" value="52.205746708465526" />
-      <entry key="H1" value="55.85957108529386" />
-      <entry key="H2" value="57.86479061490171" />
-      <entry key="H4" value="58.915593292949794" />
-      <entry key="D1" value="59.81688339878027" />
-      <entry key="W1" value="59.973781503354104" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000746757837604" />
+      <entry key="S5" value="1.0223497112378317" />
+      <entry key="S10" value="1.1495217735432788" />
+      <entry key="S30" value="1.8420615585662352" />
+      <entry key="S60" value="5.689108682061689" />
+      <entry key="M2" value="18.779496255981254" />
+      <entry key="M5" value="51.75019023198418" />
+      <entry key="M10" value="82.05232651847811" />
+      <entry key="M15" value="98.63540737723939" />
+      <entry key="M30" value="121.20233626212597" />
+      <entry key="H1" value="135.67458786370884" />
+      <entry key="H2" value="143.93848024208455" />
+      <entry key="H4" value="148.36365297801086" />
+      <entry key="D1" value="152.21207962760923" />
+      <entry key="W1" value="152.88706065490427" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.048924702095541E-112" />
-      <entry key="S2" value="1.5998185863094295E-28" />
-      <entry key="S5" value="9.994652789589698E-12" />
-      <entry key="S10" value="4.639323333117988E-6" />
-      <entry key="S30" value="0.03928987211735934" />
-      <entry key="S60" value="0.4757497621585821" />
-      <entry key="M2" value="1.8489608606041665" />
-      <entry key="M5" value="4.390264514376625" />
-      <entry key="M10" value="5.912078441191413" />
-      <entry key="M15" value="6.535650422542022" />
-      <entry key="M30" value="7.228893783232066" />
-      <entry key="H1" value="7.604164250372998" />
-      <entry key="H2" value="7.79943921165373" />
-      <entry key="H4" value="7.899049615167439" />
-      <entry key="D1" value="7.983081084481352" />
-      <entry key="W1" value="7.9975807031985156" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.033501151695232E-145" />
+      <entry key="S5" value="2.6938113366727033E-58" />
+      <entry key="S10" value="2.408542830661153E-29" />
+      <entry key="S30" value="6.803209725965512E-10" />
+      <entry key="S60" value="6.260300812441563E-5" />
+      <entry key="M2" value="0.02120977341750359" />
+      <entry key="M5" value="0.7350789931151638" />
+      <entry key="M10" value="2.419144719900757" />
+      <entry key="M15" value="3.60221742606365" />
+      <entry key="M30" value="5.366762760917451" />
+      <entry key="H1" value="6.551967976818478" />
+      <entry key="H2" value="7.239749108023904" />
+      <entry key="H4" value="7.610354915884917" />
+      <entry key="D1" value="7.933695938588137" />
+      <entry key="W1" value="7.990494057763491" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549474184958" />
-      <entry key="MS500" value="1.0038628651232786" />
-      <entry key="S2" value="2.448723949111551" />
-      <entry key="S5" value="6.696044126006649" />
-      <entry key="S10" value="10.634248426370194" />
-      <entry key="S30" value="15.373148029147409" />
-      <entry key="S60" value="18.90063690731497" />
-      <entry key="M2" value="24.50082344286284" />
-      <entry key="M5" value="36.518413376203846" />
-      <entry key="M10" value="47.23570455234229" />
-      <entry key="M15" value="52.6415983583801" />
-      <entry key="M30" value="59.426409656197976" />
-      <entry key="H1" value="63.45939189179572" />
-      <entry key="H2" value="65.66199852254972" />
-      <entry key="H4" value="66.81351202600739" />
-      <entry key="D1" value="67.79977385860792" />
-      <entry key="W1" value="67.97133492156327" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903428719330246" />
+      <entry key="S2" value="0.9976514717569971" />
+      <entry key="S5" value="1.0213642896051534" />
+      <entry key="S10" value="1.1489848757713774" />
+      <entry key="S30" value="1.8417993126883287" />
+      <entry key="S60" value="5.688799628963123" />
+      <entry key="M2" value="18.799784021537118" />
+      <entry key="M5" value="52.47980973877026" />
+      <entry key="M10" value="84.46290656400015" />
+      <entry key="M15" value="102.22917334507144" />
+      <entry key="M30" value="126.56281992591488" />
+      <entry key="H1" value="142.2227239993361" />
+      <entry key="H2" value="151.17611210663085" />
+      <entry key="H4" value="155.97289496629114" />
+      <entry key="D1" value="160.14558217557337" />
+      <entry key="W1" value="160.87752688704205" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -114,6 +121,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -197,7 +205,31 @@
       <option name="project" value="LOCAL" />
       <updated>1785283340741</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixes Instagram link so it opens in a new tab">
+      <option name="closed" value="true" />
+      <created>1785283499620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1785283499620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixes Instagram link so it opens in a new tab">
+      <option name="closed" value="true" />
+      <created>1785283574976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1785283574976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adds and changes old pictures to new">
+      <option name="closed" value="true" />
+      <created>1785283587968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1785283587968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +250,7 @@
     <MESSAGE value="changes social media links" />
     <MESSAGE value="Extras" />
     <MESSAGE value="Hides the social links for youtube and facebook" />
+    <MESSAGE value="Fixes Instagram link so it opens in a new tab" />
     <MESSAGE value="Adds and changes old pictures to new" />
     <option name="LAST_COMMIT_MESSAGE" value="Adds and changes old pictures to new" />
   </component>
